@@ -1,0 +1,27 @@
+/*
+    Paleta de Cores:
+    Azul: #4F627D
+    Cinza: #dddddd
+*/ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #4f627d;
+    --bg-color: #dddddd;
+    --text-color: #000000;
+    --text-color-2: #ffffff;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    min-height: 100vh;
+}
+
+main {
+    background-color: var(--text-color-2);
+}
