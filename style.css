@@ -136,3 +136,28 @@ blockquote {
 .author-name, .author-role {
     font-weight: 600;
 }
+
+footer {
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: 100;
+    font-size: 0.9em;
+}
+
+footer p {
+    font-weight: 600;
+    margin: 5px;
+}
+
+footer a {
+    color: black;
+    font-size: 1.5em;
+    padding: 10px;
+}
