@@ -151,12 +151,25 @@ footer {
     font-size: 0.9em;
 }
 
+.contact {
+    font-size: 0.9em;
+    padding-top: 20px;
+    text-align: center;
+}
+
+address p {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    gap: 10px;
+}
+
 footer p {
     font-weight: 600;
     margin: 5px;
 }
 
-footer a {
+.links a {
     color: black;
     font-size: 1.5em;
     padding: 10px;
