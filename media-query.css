@@ -1,13 +1,48 @@
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1.2em;
+    }
+
     header {
         flex-direction: row;
         justify-content: space-between;
         padding: 20px 40px;
     }
-
     .cards-container {
         flex-direction: row;
         justify-content: center;
         align-items: stretch;
+        gap: 20px;
+    }
+    
+    .feedback {
+        max-width: 800px;
+        margin: 20px auto;
+    }
+
+    .feedback-card {
+        flex-direction: row;
+        text-align: left;
+        max-width: 700px;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 25px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .cards-container {
+        gap: 60px;
+    }
+
+    .feedback {
+        max-width: 1500px;
+
+    }
+
+    .feedback-card {
+        max-width: 1400px;
     }
 }
+
