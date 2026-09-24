@@ -11,17 +11,91 @@
 
 :root {
     --primary-color: #4f627d;
-    --bg-color: #dddddd;
+    --bg-color: #deeaf5;
     --text-color: #000000;
     --text-color-2: #ffffff;
 }
 
 body {
+    font-family: 'Inter', sans-serif;
     background-color: var(--bg-color);
     color: var(--text-color);
     min-height: 100vh;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+}
+
 main {
     background-color: var(--text-color-2);
+}
+
+.hero {
+    background-color: var(--bg-color);
+    padding: 20px;
+    text-align: center;
+}
+
+#pre-title {
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+#pos-title {
+    padding: 20px 10px;
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.425);
+}
+
+.methodology {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 15px;
+    gap: 15px;
+}
+
+.methodology h2{
+    margin-bottom: 20px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards-container div{
+    background-color: var(--text-color-2);
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 30px 20px;
+    text-align: center;
+    flex: 1;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    font-size: 2em;
+    background-color: var(--bg-color);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
