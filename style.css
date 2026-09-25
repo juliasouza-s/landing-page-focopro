@@ -165,7 +165,8 @@ blockquote {
     font-family: inherit;
     border: 1px solid #ccc;
     border-radius: 5px;
-    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .lead-form input:focus,
