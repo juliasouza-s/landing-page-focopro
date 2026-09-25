@@ -163,6 +163,14 @@ blockquote {
     padding: 12px 10px;
     font-size: 1em;
     font-family: inherit;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.lead-form input:focus,
+.lead-form textarea:focus {
+    border: 1px solid var(--text-color);
+    outline: none;
 }
 
 form {
