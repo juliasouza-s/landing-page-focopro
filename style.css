@@ -34,21 +34,25 @@ header {
 
 main {
     background-color: var(--text-color-2);
+    padding-bottom: 5px;
 }
 
 .hero {
     background-color: var(--bg-color);
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
 }
 
 #pre-title {
     font-weight: 600;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 #pos-title {
-    padding: 20px 10px;
+    padding: 30px 10px;
 }
 
 .button {
@@ -137,12 +141,31 @@ blockquote {
     font-weight: 600;
 }
 
+.lead-form {
+    background-color: var(--primary-color);
+    margin: auto;
+    text-align: center;
+    margin: 20px;
+
+    border-radius: 10px;
+}
+
 footer {
     font-size: 1.1em;
+    flex: 1;
     display: flex;
+
     flex-direction: column;
     align-items: center;
     padding: 20px;
+}
+
+footer div {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .copyright {
@@ -154,19 +177,49 @@ footer {
 .contact {
     font-size: 0.9em;
     padding-top: 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-address p {
+address {
+    font-style: normal;
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
-    text-align: left;
-    gap: 10px;
+    width: fit-content;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+address p span:first-child {
+    flex-shrink: 0;
+    font-size: 1.5em;
+    line-height: 1;
+    margin: 0px;
+}
+
+address p span:last-child {
+    flex: 1;
+    min-width: 0;
 }
 
 footer p {
     font-weight: 600;
     margin: 5px;
+}
+
+.links {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-box {
+    padding-top: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .links a {

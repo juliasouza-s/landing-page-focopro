@@ -32,7 +32,7 @@
     footer {
         flex-direction: row;
         justify-content: space-between;
-        padding: 20px 120px;
+        padding: 20px 100px;
     }
 }
 
@@ -49,4 +49,3 @@
         max-width: 1400px;
     }
 }
-
