@@ -142,19 +142,40 @@ blockquote {
 }
 
 .lead-form {
-    background-color: var(--primary-color);
-    margin: auto;
-    text-align: center;
-    margin: 20px;
-
+    background-color: var(--text-color-2);
+    border: 1px solid #e0e0e0;
     border-radius: 10px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.lead-form h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.lead-form input, 
+.lead-form textarea {
+    padding: 12px 10px;
+    font-size: 1em;
+    font-family: inherit;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0 auto;
 }
 
 footer {
     font-size: 1.1em;
     flex: 1;
     display: flex;
-
     flex-direction: column;
     align-items: center;
     padding: 20px;
