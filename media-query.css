@@ -41,7 +41,7 @@
     footer {
         flex-direction: row;
         justify-content: space-between;
-        padding: 20px 100px;
+
     }
 }
 
@@ -56,5 +56,9 @@
 
     .feedback-card {
         max-width: 1400px;
+    }
+
+    footer {
+        padding: 20px 100px;
     }
 }

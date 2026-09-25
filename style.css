@@ -159,7 +159,7 @@ blockquote {
 }
 
 .lead-form input, 
-.lead-form textarea {
+.lead-form textarea{
     padding: 12px 10px;
     font-size: 1em;
     font-family: inherit;
